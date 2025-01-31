@@ -1,4 +1,4 @@
-import React, {useEffect,useRef,useState,useCallback} from "react"
+ import React, {useEffect,useRef,useState,useCallback} from "react"
 
 const IsDevice = (() => {
     if (typeof navigator == 'undefined') return
@@ -74,7 +74,7 @@ function useEventListener(eventName, handler, element = document) {
  * Replaces the native cursor with a custom animated cursor, consisting
  * of an inner and outer dot that scale inversely based on hover or click.
  *
- * @author Stephen Scaff (github.com/stephenscaff)
+ * 
  *
  * @param {string} color - rgb color value
  * @param {number} outerAlpha - level of alpha transparency for color
@@ -92,11 +92,11 @@ function CursorCore({
     innerStyle,
     color = '220, 90, 90',
     outerAlpha = 0.3,
-    innerSize = 8,
-    outerSize = 8,
-    outerScale = 6,
+    innerSize = 5,
+    outerSize = 5,
+    outerScale = 3,
     innerScale = 0.6,
-    trailingSpeed = 8,
+    trailingSpeed = 10,
     clickables = [
       'a',
       'input[type="text"]',

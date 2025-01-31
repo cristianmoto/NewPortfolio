@@ -1,23 +1,23 @@
-const logotext = "JOHN";
+const logotext = "TIAN";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Tian Dev",
+    description: "Soy Cristian (Tian) desarrollador Frontend y diseñador multimedial",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Soy Tian",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Apasionado por la tecnología",
+        second: "busco mejorar cada día",
+        third: "y crear mejores webs ",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Si puedes imaginarlo, puedo crearlo, webs atractivas y funcionales, con un diseño limpio y moderno.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Un poco acerca de mi",
+    aboutme: "Porgramador Frontend , especializado en ReactJs y Talwind, acutalmente estoy incursionando en IA generativa, utilizando Python he realizado diversos cursos sobre Inteligencia Artificial.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -59,16 +59,16 @@ const skills = [{
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web Design",
+        description: "Ademas de ser un desarrollador Frontend, soy diseñador multimedial, por lo que puedo crear webs atractivas y funcionales.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web developer",
+        description: "creo apliacaciones web con las ultimas tecnologias, para que tu web sea rapida y segura.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Responsive Design",
+        description: "En cualquier dispositivo, ya sea un movil, tablet o pc, tu web se vera perfecta.",
     },
 ];
 
